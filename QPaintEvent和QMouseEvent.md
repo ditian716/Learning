@@ -1,7 +1,6 @@
 #Learning
 ##QPaintEvent和QMouseEvent
 >2018.10.11 
->>https://blog.csdn.net/qq_37233607/article/details/78305585  
 >>https://blog.csdn.net/u013928315/article/details/78195491
 
 ###当发生一下情况时会产生绘制事件并调用paintEvent()函数: 
@@ -18,7 +17,7 @@ repaint()函数会强制产生一个即时的重绘事件,而update()函数只�
 
 如果多次调用update(),Qt会把连续多次的绘制事件压缩成一个单一的绘制事件，这样可避免闪烁现象。
 
-
+>>https://blog.csdn.net/qq_37233607/article/details/78305585  
 ###QMouseEvent
 QMouseEvent下可以被重写的虚函数: 
 1.void mousePressEvent(QMouseEvent *event); //鼠标键被按下的事件. 
