@@ -1,7 +1,8 @@
 # Learning
 
 ## 如何在QLable的图像上画线
->2018.10.11 https://bbs.csdn.net/topics/391844175?page=1
+>2018.10.11 
+>>https://bbs.csdn.net/topics/391844175?page=1
 
 **继承一个QLabel, 然后在paintEvent中画**
 1. 新建一个类比如 MyLabel, 继承于QLabel, 用向导生成即可
