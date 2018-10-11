@@ -38,4 +38,3 @@ dragLeaveEvent事件有一个参数，参数类型是QDragLeaveEvent，继承自
 ### 3.QDrop相关事件
 当drag为accept状态，然后释放鼠标，就会产生dropEvent。我们可以在这个事件里处理本次拖拽附带的Mime信息。
 
->>https://blog.csdn.net/pcsuite/article/details/6147191
